@@ -20,4 +20,6 @@ function findBy(array,findFn) {
     if(findFn(arary[i]))
     return array[i];
   }
+  if(i===array.length)
+   return null;
 }
