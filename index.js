@@ -23,5 +23,5 @@ var i;
     return array[i];
   }
   if(i===array.length)
-   return `null`;
+   return null;
 }
